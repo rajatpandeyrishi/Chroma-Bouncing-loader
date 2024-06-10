@@ -1,0 +1,59 @@
+/* Applying a global style & Setting up the base styles for the document */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(189, 236, 255);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Styling for the row of dots */
+#row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Styling for individual dots */
+.dots {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(120, 120, 238);
+  border-radius: 50%;
+  background-color: white;
+  animation: bounce 1s infinite;
+  transform-origin: top;
+  box-shadow: 16px 14px 5px rgb(0, 0, 0, 0.1);
+}
+
+/* styling for Different colors w/ adding a animation timing for each dots */
+.dots:nth-child(2) {
+  background-color: rgb(247, 77, 77);
+  animation-delay: 0.1s;
+}
+
+.dots:nth-child(3) {
+  background-color: rgb(59, 243, 59);
+  animation-delay: 0.2s;
+}
+
+.dots:nth-child(4) {
+  background-color: rgb(245, 231, 37);
+  animation-delay: 0.3s;
+}
+
+.dots:nth-child(5) {
+  background-color: rgb(162, 162, 250);
+  animation-delay: 0.4s;
+}
+
+.dots:nth-child(6) {
+  background-color: rgb(255, 127, 80);
+  animation-delay: 0.5s;
+}
