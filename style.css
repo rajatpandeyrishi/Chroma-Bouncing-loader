@@ -53,20 +53,15 @@ body {
   animation-delay: 0.4s;
 }
 
-.dots:nth-child(6) {
-  background-color: rgb(255, 127, 80);
-  animation-delay: 0.5s;
-}
-
 /* implement a keyframe animation for bouncing effect on dot elements */
 @keyframes bounce {
-    0% {
-      transform: translate(0);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-    100%{
-      transform: translateY(0);
-    }
+  0% {
+    transform: translate(0);
   }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
